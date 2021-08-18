@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hi Michael, I love you!'));
+app.get('/', (req, res) => res.send('This is just a simple application to test the pipeline!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
